@@ -18,13 +18,13 @@ import android.database.sqlite.SQLiteDatabase;
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "Plantr.db";
-    public static final String CONTACTS_TABLE_NAME = "plants";
-    public static final String CONTACTS_COLUMN_ID = "id";
-    public static final String CONTACTS_COLUMN_NAME = "name";
-    public static final String CONTACTS_COLUMN_EMAIL = "description";
-    public static final String CONTACTS_COLUMN_STREET = "amount_watering";
-    public static final String CONTACTS_COLUMN_CITY = "frequency_watering";
-    public static final String CONTACTS_COLUMN_PHONE = "sunlight";
+    public static final String PLANTS_TABLE_NAME = "plants";
+    public static final String PLANTS_COLUMN_ID = "id";
+    public static final String PLANTS_COLUMN_NAME = "name";
+    public static final String PLANTS_COLUMN_DESCRIPTION = "description";
+    public static final String PLANTS_COLUMN_AMOUNT = "amount_watering";
+    public static final String PLANTS_COLUMN_FREQUENCY = "frequency_watering";
+    public static final String PLANTS_COLUMN_SUNLIGHT = "sunlight";
     private HashMap hp;
 
     public DBHelper(Context context)
@@ -36,28 +36,28 @@ public class DBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         // TODO Auto-generated method stub
         db.execSQL(
-                "create table contacts " +
-                        "(id integer primary key, name text,phone text,email text, street text,place text)"
+                "create table plants " +
+                        "(id integer primary key, name text,description text,watering_amount integer, watering_frequency integer,sunlight integer)"
         );
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // TODO Auto-generated method stub
-        db.execSQL("DROP TABLE IF EXISTS contacts");
+        db.execSQL("DROP TABLE IF EXISTS plants");
         onCreate(db);
     }
 
-    public boolean insertContact  (String name, String phone, String email, String street,String place)
+    public boolean insertPlant  (String name, String description, int  watering_amount, int watering_frequency,String place)
     {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("name", name);
-        contentValues.put("phone", phone);
-        contentValues.put("email", email);
-        contentValues.put("street", street);
+        contentValues.put("description", description);
+        contentValues.put("watering_amount", watering_amount);
+        contentValues.put("watering_frequency", watering_frequency);
         contentValues.put("place", place);
-        db.insert("contacts", null, contentValues);
+        db.insert("plants", null, contentValues);
         return true;
     }
 
@@ -69,42 +69,30 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public int numberOfRows(){
         SQLiteDatabase db = this.getReadableDatabase();
-        int numRows = (int) DatabaseUtils.queryNumEntries(db, CONTACTS_TABLE_NAME);
+        int numRows = (int) DatabaseUtils.queryNumEntries(db, PLANTS_TABLE_NAME);
         return numRows;
     }
 
-    public boolean updateContact (Integer id, String name, String phone, String email, String street,String place)
-    {
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put("name", name);
-        contentValues.put("phone", phone);
-        contentValues.put("email", email);
-        contentValues.put("street", street);
-        contentValues.put("place", place);
-        db.update("contacts", contentValues, "id = ? ", new String[] { Integer.toString(id) } );
-        return true;
-    }
 
-    public Integer deleteContact (Integer id)
+    public Integer deletePlant (Integer id)
     {
         SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete("contacts",
+        return db.delete("plants",
                 "id = ? ",
                 new String[] { Integer.toString(id) });
     }
 
-    public ArrayList<String> getAllCotacts()
+    public ArrayList<String> getAllPlants()
     {
         ArrayList<String> array_list = new ArrayList<String>();
 
         //hp = new HashMap();
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor res =  db.rawQuery( "select * from contacts", null );
+        Cursor res =  db.rawQuery( "select * from plants", null );
         res.moveToFirst();
 
         while(res.isAfterLast() == false){
-            array_list.add(res.getString(res.getColumnIndex(CONTACTS_COLUMN_NAME)));
+            array_list.add(res.getString(res.getColumnIndex(PLANTS_COLUMN_NAME)));
             res.moveToNext();
         }
         return array_list;
