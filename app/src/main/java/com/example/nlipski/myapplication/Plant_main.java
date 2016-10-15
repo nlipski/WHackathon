@@ -27,29 +27,29 @@ public class Plant_main extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_plant_main);
+        setContentView(R.layout.activity_plant_activity);
 
-        mydb = new DBHelper(this);
-        ArrayList array_list = mydb.getAllCotacts();
-        ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1, array_list);
-
-        obj = (ListView)findViewById(R.id.listView1);
-        obj.setAdapter(arrayAdapter);
-        obj.setOnItemClickListener(new OnItemClickListener(){
-            @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,long arg3) {
-                // TODO Auto-generated method stub
-                int id_To_Search = arg2 + 1;
-
-                Bundle dataBundle = new Bundle();
-                dataBundle.putInt("id", id_To_Search);
-
-                Intent intent = new Intent(getApplicationContext(),DisplayContact.class);
-
-                intent.putExtras(dataBundle);
-                startActivity(intent);
-            }
-        });
+//        mydb = new DBHelper(this);
+//        ArrayList array_list = mydb.getAllCotacts();
+//        ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1, array_list);
+//
+//        obj = (ListView)findViewById(R.id.listView1);
+//        obj.setAdapter(arrayAdapter);
+//        obj.setOnItemClickListener(new OnItemClickListener(){
+//            @Override
+//            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,long arg3) {
+//                // TODO Auto-generated method stub
+//                int id_To_Search = arg2 + 1;
+//
+//                Bundle dataBundle = new Bundle();
+//                dataBundle.putInt("id", id_To_Search);
+//
+//                Intent intent = new Intent(getApplicationContext(),DisplayContact.class);
+//
+//                intent.putExtras(dataBundle);
+//                startActivity(intent);
+//            }
+//        });
     }
 
     @Override
@@ -68,7 +68,7 @@ public class Plant_main extends ActionBarActivity {
             case R.id.item1:Bundle dataBundle = new Bundle();
                 dataBundle.putInt("id", 0);
 
-                Intent intent = new Intent(getApplicationContext(),DisplayContact.class);
+                Intent intent = new Intent(getApplicationContext(), DisplayContact.class);
                 intent.putExtras(dataBundle);
 
                 startActivity(intent);

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_b65fbb2c243b83a8b4de67ea8b93b5707a8636b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_0d434e024406e223537ef084645f49ef5f4561e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_48fdf5d9239fddf5a4c0a98d9cd68ec8f36a5a44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_f6f2c6bd50e3405a1c10291ebd24878483bc7f43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_fa7bd59d006d7e37930d819112a98a8d66efb9d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b60a00769dd2f0c1955efd37255d21779b550e0a">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7c7e5b43a60f829436f3f8d6c7f0259ed971cb1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_1434d0de4279429689e5ddcf34dbaca424af7aad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1c32f48a3b086899a37c9dfce02b0cb3c1045f6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_613bb7ffbfc748da58804355be6c3ef84f0a743e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76b73c5ec821ac4c22165ee5fffe5d84b1144b23">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c8a5548ba2c2ae42f3d6b9d7b7d044ff2a303abf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_94688f6e686c1a2542989a44e3b698e1701a56b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_a62cd5067f9a4afb44c6f12028703fdfed8ef420\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d7ca334c4d61eb64e07ad10352d488bf79e4a7eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9075440f2cd98f79d6ad2a161591727651612cce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_7f2882a83a1588cddd41555074c1ae4280af99c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_cf9cbf8410e7740830d0251757a7523dd291da5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_c99945f825475ab90cbe2e610c311d1a3b95e502\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_e89dc3de8e6b66f9582ccc654e4cf15ecfe1b0c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_12f7570c417b86cc02b30068dd175f99533bceeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Tr\AndroidStudioProjects\WHackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_ba64e92620cf31b7e16c1402df6fd40bf647f6a5\classes.dex" />
+    </item>
+
+</items>
