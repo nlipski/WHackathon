@@ -16,4 +16,7 @@
     <string name="deleteContact">Are you sure, you want to delete it.</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="png_file">PNG file</string>
+    <string name="_8_days">8 Days</string>
+    <string name="not_registered_yet">Not Registered Yet?</string>
 </resources>
