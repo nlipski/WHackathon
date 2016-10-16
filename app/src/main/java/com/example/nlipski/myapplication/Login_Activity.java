@@ -30,7 +30,7 @@ public class Login_Activity extends AppCompatActivity {
 
                         ed2.getText().toString().equals("admin")) {
                     Toast.makeText(getApplicationContext(), "Redirecting...",Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(Login_Activity.this, Menu_Activity.class);
+                    Intent i = new Intent(Login_Activity.this, plant_activity.class);
                     startActivity(i);
                 }
                 else

@@ -84,7 +84,7 @@
 
     <ImageView
         android:layout_height="400dp"
-        app:srcCompat="@drawable/Plant_PNG"
+        app:srcCompat="@drawable/plant_png"
         android:id="@+id/ivPlant"
         android:layout_width="500dp"
         android:contentDescription="@string/png_file"

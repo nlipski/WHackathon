@@ -27,7 +27,7 @@
         android:layout_width="184dp"
         android:layout_height="170dp"
         android:textSize="20dp"
-        android:background="@drawable/Plant_PNG"
+        android:background="@drawable/plant_png"
         android:layout_marginBottom="212dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/button3" />
