@@ -17,4 +17,13 @@
         <item name="app:popupTheme=">@style/ThemeOverlay.AppCompat.Dark</item>
     </style>
 
+    <style name="ExpandingButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:background">@color/colorExpandingButton</item>
+        <item name="android:textColor">@color/colorExpandingButtonText</item>
+    </style>
+
 </resources>

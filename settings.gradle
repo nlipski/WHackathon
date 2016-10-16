@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ":ExpandableTextView"
+project(':ExpandableTextView').projectDir = new File('libs/ExpandableTextView')

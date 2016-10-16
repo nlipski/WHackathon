@@ -6,115 +6,68 @@
     android:id="@+id/activity_plant_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingBottom="0dp"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     tools:context="com.example.nlipski.myapplication.plant_activity"
     android:background="#323232">
 
+    <!-- Toolbar -->
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         style="@style/Toolbar"
-        android:id="@+id/plant_toolbar"
+        android:id="@+id/toolbarPlantActivity"
         app:titleTextColor="@color/colorAccent"
         app:navigationIcon="@drawable/back"
-        app:title="Plant name"
+        app:title="Sacred Lotus"
         app:subtitle="2 days before watering"
         app:subtitleTextColor="@color/colorAccent"
         android:textAlignment="center">
-        <TextView
-            android:text="2 days"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="+@id/test"
-            android:textAlignment="textEnd"
-            />
     </android.support.v7.widget.Toolbar>
 
-    <Button
-        android:text="Water"
-        android:layout_width="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_marginTop="68dp"
-        android:id="@+id/btnWater"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:layout_height="70dp"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:textAlignment="center"
-        android:background="#616161" />
-
-    <TextView
-        android:text="Next Watering:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginTop="19dp"
-        android:id="@+id/textView8"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-    <TextView
-        android:text="8 Days"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvNextWaterDays"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:layout_alignBottom="@+id/imageButton"
-        android:layout_alignEnd="@+id/imageView"
-        android:layout_marginEnd="18dp" />
-
-    <!--
-    <TextView
-        android:text="Sample Plant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvPlantName"
-        android:layout_marginTop="52dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:layout_below="@+id/tvNextWaterDays"
-        android:layout_centerHorizontal="true" />-->
-
+    <!-- Picture of plant -->
     <ImageView
-        android:layout_height="400dp"
-        app:srcCompat="@drawable/plant_png"
-        android:id="@+id/imageView"
-        android:layout_width="500dp"
-        android:layout_below="@+id/tvPlantName"
-        android:layout_centerHorizontal="true" />
+        app:srcCompat="@drawable/sacred_lotus"
+        android:id="@+id/imagePlant"
+        android:background="@color/colorImageBG"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbarPlantActivity"
+        android:layout_above="@id/buttonWater"/>
+
+    <!-- Water recommendation -->
+    <Button
+        style="@style/ExpandingButton"
+        android:text="@string/buttonWater"
+        android:id="@+id/buttonWater"
+        android:layout_above="@id/buttonSunlight" />
+
+    <!-- Sunlight recommendation -->
+    <Button
+        style="@style/ExpandingButton"
+        android:text="@string/buttonSunlight"
+        android:id="@+id/buttonSunlight"
+        android:layout_above="@id/buttonDescription" />
+
+    <!-- Plant description -->
+    <Button
+        style="@style/ExpandingButton"
+        android:text="@string/buttonDescription"
+        android:id="@+id/buttonDescription"
+        android:layout_above="@id/buttonNotification" />
 
     <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:id="@+id/button3"
-        android:layout_height="70dp"
-        android:layout_below="@+id/btnWater"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:background="#616161" />
+        style="@style/ExpandingButton"
+        android:text="@string/buttonNotification"
+        android:id="@+id/buttonNotification"
+        android:layout_above="@id/buttonAccessories" />
 
     <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:id="@+id/button2"
-        android:layout_height="70dp"
-        android:layout_below="@+id/button3"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:background="#616161" />
-
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="75dp"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        android:id="@+id/imageButton"
-        android:contentDescription=""
-        android:layout_alignTop="@+id/textView8"
-        android:layout_toEndOf="@+id/plant_toolbar"
-        android:layout_marginStart="19dp" />
-
+        style="@style/ExpandingButton"
+        android:text="@string/buttonAccessories"
+        android:id="@+id/buttonAccessories"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>

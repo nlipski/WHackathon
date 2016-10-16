@@ -5,7 +5,11 @@
     <string name="plant_0">Plant_Placeholder</string>
     <string name="plant_1">Lotus</string>
 
-
+    <string name="buttonWater">Water</string>
+    <string name="buttonSunlight">Sunlight</string>
+    <string name="buttonDescription">Description</string>
+    <string name="buttonNotification">Notification</string>
+    <string name="buttonAccessories">Accesories</string>
 
     <!-- Testing? -->
     <string name="action_settings">Settings</string>
