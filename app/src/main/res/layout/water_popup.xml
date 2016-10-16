@@ -34,7 +34,7 @@
             android:id="@+id/tvAmount"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_marginTop="58dp"
-            android:layout_below="@+id/amount"
+            android:layout_below="@+id/Sunliught"
             android:layout_centerHorizontal="true" />
 
         <TextView
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="83dp"
-            android:id="@+id/amount"
+            android:id="@+id/Sunliught"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true" />
@@ -50,7 +50,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvFrequency"
+            android:id="@+id/tvLoc"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_marginTop="63dp"
             android:layout_below="@+id/textView4"

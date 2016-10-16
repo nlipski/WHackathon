@@ -25,18 +25,6 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="790dp" />
 
-    <TextView
-        android:text="Next Watering:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginTop="19dp"
-        android:id="@+id/textView8"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/background_light" />
-
     <Button
         android:text="Sunlight"
         android:layout_width="wrap_content"
@@ -111,6 +99,24 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView8"
         android:layout_alignEnd="@+id/ivPlant" />
+
+    <TextView
+        android:text="Next Watering:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/textView8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light"
+        android:layout_above="@+id/tvNextWaterDays"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_height="40dp"
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_alignBottom="@+id/tvNextWaterDays"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
