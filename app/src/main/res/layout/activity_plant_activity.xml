@@ -12,87 +12,19 @@
     tools:context="com.example.nlipski.myapplication.plant_activity"
     android:background="#323232">
 
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="75dp"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        android:id="@+id/imageButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:contentDescription=""
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/tvPlantName"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="790dp" />
-
-    <Button
-        android:text="Sunlight"
-        android:layout_width="wrap_content"
-        android:id="@+id/btnSunlight"
-        android:layout_height="70dp"
-        android:layout_below="@+id/btnWater"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        style="@style/Widget.AppCompat.Button" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:id="@+id/button2"
-        android:layout_height="70dp"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_below="@+id/btnSunlight"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="@string/_8_days"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvNextWaterDays"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:layout_marginEnd="11dp"
-        android:textColor="@android:color/background_light"
-        android:layout_alignBottom="@+id/imageButton"
-        android:layout_alignEnd="@+id/ivPlant"
-        android:layout_marginBottom="13dp" />
-
-    <TextView
-        android:text="Sample Plant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvPlantName"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        android:textColor="@android:color/background_light"
-        android:layout_marginTop="70dp"
-        android:shadowColor="@color/colorPrimary"
-        android:textColorHint="@color/colorPrimary"
-        android:layout_below="@+id/tvNextWaterDays"
-        android:layout_centerHorizontal="true" />
-
     <ImageView
-        android:layout_height="400dp"
         app:srcCompat="@drawable/plant_png"
         android:id="@+id/ivPlant"
-        android:layout_width="500dp"
         android:contentDescription="@string/png_file"
         android:background="@drawable/cshadow"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:adjustViewBounds="false"
-        android:cropToPadding="false" />
-
-    <Button
-        android:text="Water"
-        android:layout_width="wrap_content"
-        android:id="@+id/btnWater"
-        android:layout_height="70dp"
-        style="@style/Widget.AppCompat.Button"
-        android:textAlignment="center"
-        android:layout_marginTop="19dp"
-        android:layout_below="@+id/ivPlant"
+        android:cropToPadding="false"
+        android:layout_above="@+id/btnWater"
+        android:layout_marginBottom="23dp"
+        android:layout_width="200dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_height="250dp" />
 
     <ExpandableListView
         android:layout_width="wrap_content"
@@ -100,23 +32,86 @@
         android:layout_alignTop="@+id/textView8"
         android:layout_alignEnd="@+id/ivPlant" />
 
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Sunlight"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnSunlight"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Water"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnWater"
+        style="@style/Widget.AppCompat.Button"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnSunlight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Sample Plant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPlantName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:shadowColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <ImageButton
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        android:id="@+id/imageButton"
+        android:contentDescription=""
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
     <TextView
         android:text="Next Watering:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="18dp"
         android:id="@+id/textView8"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/background_light"
-        android:layout_above="@+id/tvNextWaterDays"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
 
     <Spinner
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:id="@+id/spinner"
-        android:layout_width="250dp"
-        android:layout_alignBottom="@+id/tvNextWaterDays"
-        android:layout_centerHorizontal="true" />
+        android:layout_width="150dp"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignStart="@+id/tvPlantName"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:text="@string/_8_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNextWaterDays"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light"
+        android:layout_above="@+id/tvPlantName"
+        android:layout_toEndOf="@+id/tvPlantName"
+        android:layout_marginStart="10dp" />
 
 
 </RelativeLayout>

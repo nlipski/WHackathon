@@ -33,7 +33,7 @@ public class plant_activity extends AppCompatActivity {
                 layoutInflater = (LayoutInflater) getApplicationContext().getSystemService(LAYOUT_INFLATER_SERVICE);
                 ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.description_popup, null);
                 popupWindow = new PopupWindow(container, 300, 300, true);
-                popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, 400, 400);
+                popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, 300, 300);
                 container.setOnTouchListener(new View.OnTouchListener() {
                     @Override
                     public boolean onTouch(View view, MotionEvent motionEvent) {

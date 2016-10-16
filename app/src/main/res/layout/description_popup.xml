@@ -13,7 +13,7 @@
             android:id="@+id/textView5"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textAlignment="center"
-            android:text="Sunlight Specifications:"
+            android:text="Description "
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="17dp" />
